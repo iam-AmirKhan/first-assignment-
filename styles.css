@@ -5,6 +5,17 @@
   font-weight: 900;
   font-style: normal;
   color: #4E47FF;
+
+}
+
+
+
+.raleway-bold{  
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 65px;
 }
 .navbar{
     display: flex;
@@ -26,4 +37,14 @@
 
 .button-primary:hover{
     background-color: #0f0fda;
+
+}
+
+
+/* banner section */
+
+.banner-text{
+    text-align: center;
+    margin-top: -35%;
+    margin-bottom: 35%;
 }
