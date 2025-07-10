@@ -48,3 +48,24 @@
     margin-top: -35%;
     margin-bottom: 35%;
 }
+/* section1 */
+
+.section-container{
+    display: flex;
+    justify-content: space-between;
+     
+}
+.section-container h2{
+   font-size: 42px;
+   
+     
+}
+.section-container p{
+   font-size: 24px;
+   
+}
+
+
+.image{
+    border-radius: 48px;
+}
