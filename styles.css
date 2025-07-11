@@ -1,41 +1,77 @@
+.inter-black {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #4E47FF;
 
-.inter-black{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
-  color: #4E47FF;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #4E47FF;
+
+}
+
+.inter-reguler {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    opacity: 50%;
+
+}
+
+.inter-reguler1 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
 
 }
 
 
 
-.raleway-bold{  
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 65px;
+.raleway-bold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 65px;
 }
-.navbar{
+
+.navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-    .width{
-        max-width: 1440px;
-        margin: auto;
-    }
 
-.button-primary{
+}
+
+.navbar h2 {
+    font-size: 34px;
+    margin-bottom: 0px;
+}
+
+.width {
+    max-width: 1440px;
+    margin: auto;
+    background-color: #4E47FF10;
+}
+
+.button-primary {
     border: none;
     background-color: #4E47FF;
     color: white;
-    padding:12px 36px;
+    padding: 12px 36px;
     border-radius: 10px;
 }
 
-.button-primary:hover{
+.button-primary:hover {
     background-color: #0f0fda;
 
 }
@@ -43,33 +79,43 @@
 
 /* banner section */
 
-.banner-text{
+.banner-text {
     text-align: center;
     margin-top: -35%;
-    margin-bottom: 35%;
+    margin-bottom: 25%;
 }
+
 /* section1 */
 
-.section-container{
+.section-container {
     display: flex;
     justify-content: space-between;
-     
+    margin-bottom: 116px;
+
+
 }
-.section-container h2{
-   font-size: 42px;
-   
-     
+
+.section-content {
+    background-color: #4E47FF10;
+    border-radius: 24px;
+
 }
-.section-container p{
-   font-size: 24px;
-   
+
+.section-container h2 {
+    font-size: 42px;
+
+
+}
+
+.section-container p {
+    font-size: 24px;
+
 }
 
 
-.image{
+.image {
     border-radius: 48px;
 }
-
 
 /* section2  */
 
@@ -144,8 +190,6 @@
 }
 
 
-/* user section */
-
 .user-review {
     display: flex;
     gap: 20px;
@@ -166,7 +210,7 @@
 
 .section-card1 {
     padding: 24px 24px;
-    background-color: #4E47FF20;
+    background-color: white;
     border-radius: 14px;
 
 }
@@ -178,9 +222,10 @@
 }
 
 
+
 /* section4 */
 .section4-contents {
-    background-color: #4E47FF20;
+    background-color: white;
     padding: 71px 150px;
     border-radius: 14px;
     text-align: center;
@@ -214,7 +259,7 @@
 
 /* input feild  */
 
-.email-section{
+.email-section {
     margin-top: 92px;
     padding-top: 71px;
     padding-bottom: 71px;
@@ -279,12 +324,37 @@
 
 
 .footer {
-    margin-top: 200px;
-    background-color: white;
+    background-color: white;
+    padding: 104px;
 }
 
-  
 
+.footer h1 {
 
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.subtitle {
+    margin-top: 10px;
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    opacity: 40%;
+}
 
+.links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 16px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000;
+    opacity: 50%;
+}
