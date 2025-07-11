@@ -143,3 +143,42 @@
     font-weight: 400;
 }
 
+
+/* user section */
+
+.user-review {
+    display: flex;
+    gap: 20px;
+}
+
+.user-review h5 {
+    font-size: 20px;
+    opacity: 70%;
+
+}
+
+.user-review p {
+    font-size: 18px;
+    opacity: 50%;
+
+
+}
+
+.section-card1 {
+    padding: 24px 24px;
+    background-color: #4E47FF20;
+    border-radius: 14px;
+
+}
+
+.section3-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 137px;
+}
+
+
+
+
+
+
